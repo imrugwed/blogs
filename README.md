@@ -21,12 +21,11 @@ This is a **RESTful API** for a blogging platform built using **Spring Boot**, *
 ---
 
 🔗 API Endpoints
-📝 Blog Management
-Method	Endpoint	Description
-- **POST	/blogs	Create a new blog
-- **GET	/blogs	Get all blogs (paginated)
-- **GET	/blogs/{id}	Get a single blog by ID
-- **PUT	/blogs/{id}	Update an existing blog
-- **DELETE	/blogs/{id}	Delete a blog by ID
+##📝 Blog Management
+- **POST	/blogs	Create a new blog**
+- **GET	/blogs	Get all blogs (paginated)**
+- **GET	/blogs/{id}	Get a single blog by ID**
+- **PUT	/blogs/{id}	Update an existing blog**
+- **DELETE	/blogs/{id}	Delete a blog by ID**
 
 ---
