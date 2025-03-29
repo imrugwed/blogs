@@ -20,7 +20,7 @@ This is a **RESTful API** for a blogging platform built using **Spring Boot**, *
 
 ---
 
-## API Endpoints
+## 🔗 API Endpoints
 - **POST	/blogs	Create a new blog**
 - **GET	/blogs	Get all blogs (paginated)**
 - **GET	/blogs/{id}	Get a single blog by ID**
