@@ -21,9 +21,11 @@ This is a **RESTful API** for a blogging platform built using **Spring Boot**, *
 
 ---
 
-## 🔧 Setup Instructions
-
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/YOUR_USERNAME/blogging-app.git
-cd blogging-app
+🔗 API Endpoints
+📝 Blog Management
+Method	Endpoint	Description
+POST	/blogs	Create a new blog
+GET	/blogs	Get all blogs (paginated)
+GET	/blogs/{id}	Get a single blog by ID
+PUT	/blogs/{id}	Update an existing blog
+DELETE	/blogs/{id}	Delete a blog by ID
