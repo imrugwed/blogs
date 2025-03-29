@@ -14,7 +14,6 @@ This is a **RESTful API** for a blogging platform built using **Spring Boot**, *
 ## 🛠 Tech Stack
 - **Spring Boot** (Java)
 - **Spring Data JPA** (MySQL)
-- **Spring Security + JWT Authentication** (Optional)
 - **Google Gemini API** (AI Summarization)
 - **AWS EC2 / Lambda + API Gateway**
 - **Docker & AWS ECR** for containerization
@@ -24,8 +23,10 @@ This is a **RESTful API** for a blogging platform built using **Spring Boot**, *
 🔗 API Endpoints
 📝 Blog Management
 Method	Endpoint	Description
-POST	/blogs	Create a new blog
-GET	/blogs	Get all blogs (paginated)
-GET	/blogs/{id}	Get a single blog by ID
-PUT	/blogs/{id}	Update an existing blog
-DELETE	/blogs/{id}	Delete a blog by ID
+- **POST	/blogs	Create a new blog
+- **GET	/blogs	Get all blogs (paginated)
+- **GET	/blogs/{id}	Get a single blog by ID
+- **PUT	/blogs/{id}	Update an existing blog
+- **DELETE	/blogs/{id}	Delete a blog by ID
+
+---
